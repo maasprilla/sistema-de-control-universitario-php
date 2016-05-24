@@ -1,0 +1,149 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+}
+
+.MainMenu{
+  background-color: #078930;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  height: 2em;
+
+}
+
+.MainMenu-item{
+  color: snow;
+}
+
+#MainMenu-list>li>a:hover{
+  background-color: #078930;
+  color: #f0ad4e;
+  border-bottom: 3px solid #f0ad4e;
+
+}
+
+#MainMenu-list>li>a:focus{
+  background-color: #078930;
+  color: #f0ad4e;
+}
+
+.MainMenu-link{
+  color: snow;
+}
+
+
+.sectionLogin{
+  text-align: center;
+  padding: 4em 0;
+  height: 75.5vh;
+  background-image: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionLogin-form{
+  display: inline-block;
+  min-width: 20em;
+  border: 1px solid lightgray;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.sectionLogin-title{
+  color: #f0ad4e;
+
+}
+
+
+.sectionLogin-button{
+  font-size: 20px;
+}
+
+
+
+.Footer{
+  min-height: 6em;
+  background-color: #078930;
+  text-align: center;
+  padding: 2.5em 0;
+}
+
+.Footer-redes{
+  display: inline-block;
+}
+
+.Footer-redes>span{
+  margin: 0 0.5em;
+}
+
+.Footer-redesicon{
+  color: snow;
+}
+
+.Footer-redesicon:hover{
+  color: #f0ad4e;
+
+}
+
+
+
+
+
+
+
+/*
+fonts IconMoon
+*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?pgmwv5');
+    src:    url('../fonts/icomoon.eot?pgmwv5#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?pgmwv5') format('truetype'),
+        url('../fonts/icomoon.woff?pgmwv5') format('woff'),
+        url('../fonts/icomoon.svg?pgmwv5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+    content: "\e900";
+}
+.icon-pencil:before {
+    content: "\e905";
+}
+.icon-enter:after {
+    content: "\ea13";
+    margin-left: 0.2em;
+}
+.icon-exit:before {
+    content: "\ea14";
+}
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
