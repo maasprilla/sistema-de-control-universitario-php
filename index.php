@@ -75,15 +75,15 @@
 
 
 	<section class="sectionLogin">
-		<form class="sectionLogin-form">
+		<form class="sectionLogin-form" id="FormLogin" role="form"  action="./scriptphp/login/verificar.php" method="post">
 
 			<h1 class="sectionLogin-title">Ingresar</h1>
 
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
   </div>
   <div class="form-group">
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
 
 

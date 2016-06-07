@@ -3,12 +3,13 @@ body{
     font-size: 18px;
 }
 
+
 .MainMenu{
   background-color: #078930;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
-  height: 2em;
+  min-height: 3em;
 
 }
 
@@ -16,17 +17,19 @@ body{
   color: snow;
 }
 
+.MainMenu-item>a{
+  background-color: #078930;
+}
+
+#MainMenu-list>li>a, #MainMenu-list>li>a:focus{
+  background-color: #078930;
+  color: #f0ad4e;
+}
+
 #MainMenu-list>li>a:hover{
-  background-color: #078930;
-  color: #f0ad4e;
   border-bottom: 3px solid #f0ad4e;
-
 }
 
-#MainMenu-list>li>a:focus{
-  background-color: #078930;
-  color: #f0ad4e;
-}
 
 .MainMenu-link{
   color: snow;
